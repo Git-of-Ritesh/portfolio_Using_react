@@ -1,0 +1,250 @@
+.aboutpage{
+    width: 100%;
+    padding: 15px 5%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    overflow: hidden;
+}
+
+.about-sec-1{
+    margin-top: 200px;
+}
+
+.uppr-sec1{
+    display: flex;
+    gap: 150px;
+}
+
+.sec1-upper-head-img{
+    width: 60%;
+    height: 350px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.sec1-upper-headimg{
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+}
+
+.sec1-upper-head{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 10px;
+}
+
+.sec1-upper-head h1{
+    letter-spacing: 1px;
+    font-size: 120px;
+}
+
+.lower-sec1{
+    display: flex;
+    gap: 70px;
+    margin-top: 120px;
+}
+
+.lower-sec-1{
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+.lower-sec-2{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    padding-right: 25%;
+    gap: 40px;
+}
+
+.lower-sec-1 p{
+    font-size: 22px;
+}
+
+.lower-sec-2 p{
+    font-size: 22px;   
+}
+
+.my-image{
+    width: 100%;
+    height: 400px;
+    overflow: hidden;
+    margin-top: 100px;
+
+}
+
+.my-image img{
+    width: 100%;
+    height: 150%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.about-sec2{
+    margin-top: 300px;
+}
+
+.upper-sec2{
+    display: flex;
+    gap: 18%;
+}
+
+
+.line{
+    border: none;
+    height: 1px;
+    background-color: black;
+    margin-top: 100px;
+    margin-bottom: 30px;
+}
+
+.subline{
+    border: none;
+    height: 1px;
+    background-color: black;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.services-div{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.services-div-1{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.services-div-1-1{
+ display: flex;
+ gap: 20%;
+ width: 100%;
+}
+
+.services-div-1-1 h4{
+    font-size: 22px;
+    font-weight: 400;
+}
+
+.services-detail-div-1{
+    width: 100%;
+}
+
+.detail-div1{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    width: 80%;
+}
+
+.detail-div1 h4{
+    font-size: 22px;
+    font-weight: 400;
+}
+
+#main{
+    display: none;
+}
+
+.about-section3{
+    display: flex;
+    flex-direction: column;
+    margin-top: 300px;
+}
+
+.about-section3-head{
+    display: flex;
+    width: 75%;
+    justify-content: space-between;
+}
+
+.w-px{
+    width: 10%;
+}
+
+.sec3-interets-head{
+    margin-top: 80px;
+    display: flex;
+    gap: 120px;
+}
+
+.sec3-interets-head h1{
+    font-size: 120px;
+}
+
+.active{
+    opacity: 100%;
+}
+
+.not-active{
+    opacity: 20%;  
+}
+
+.pointer{
+    cursor: pointer;
+}
+
+.sec3-interets-detail{
+    display: flex;
+}
+
+.detail1-sec3{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+}
+
+.detail1-sec3 h4{
+    font-size: 22px;
+    font-weight: 400;
+}
+
+.item1-sec3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+    width: 100%;
+}
+
+.item2-sec3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+    width: 100%;
+}
+
+.item3-sec3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+    width: 100%;
+}
+
+button{
+    background-color: transparent;
+    border: none;
+}
+
+.email-div-2{
+    display: flex;
+    flex-direction: column;
+    width: 88%;
+    overflow: hidden;
+}
+
+.email-sec-2{
+    margin-top: 120px;
+}
