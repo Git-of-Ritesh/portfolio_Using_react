@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/my_portfolio/static/css/main.82e94b59.css",
+    "main.js": "/my_portfolio/static/js/main.1028d918.js",
+    "static/media/company.jpg": "/my_portfolio/static/media/company.7a911be658aada72c7af.jpg",
+    "static/media/deskimage.jpg": "/my_portfolio/static/media/deskimage.fd7dbd2d6efaf9bf7917.jpg",
+    "static/media/TableTennis.jpg": "/my_portfolio/static/media/TableTennis.80fa58adaeebd5f54ff7.jpg",
+    "static/media/recipe.jpg": "/my_portfolio/static/media/recipe.482e66508382e555d55d.jpg",
+    "static/media/myImage.png": "/my_portfolio/static/media/myImage.a3e0734e52e72bee2a4e.png",
+    "static/media/my image.jpeg": "/my_portfolio/static/media/my image.d7ccc972869e193fdb89.jpeg",
+    "index.html": "/my_portfolio/index.html",
+    "main.82e94b59.css.map": "/my_portfolio/static/css/main.82e94b59.css.map",
+    "main.1028d918.js.map": "/my_portfolio/static/js/main.1028d918.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.82e94b59.css",
+    "static/js/main.1028d918.js"
+  ]
+}
