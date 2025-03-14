@@ -1,4 +1,4 @@
-import { React, useEffect, useState, Suspense, useRef } from 'react'
+import React, { useEffect, useState, Suspense, useRef } from 'react'
 import { motion, easeIn, useScroll, useTransform } from 'framer-motion'
 import './about.css'
 import deskimage from '../../images/deskimage.jpg'
@@ -6,9 +6,9 @@ import myImage from '../../images/my image.jpeg'
 
 import { Canvas } from '@react-three/fiber'
 import { OrbitControls } from '@react-three/drei'
-import Gaming from '../../Gaming'
-import Music from '../../Music'
-import Tennis from '../../Tennis'
+// import Gaming from '../../Gaming.jsx'
+// import Music from '../../Music.jsx'
+// import Tennis from '../../Tennis.jsx'
 
 export const About = () => {
 
@@ -384,7 +384,7 @@ const sm = useTransform(scrollYProgress, [0, 1], [0, -200]);
               </div>
 
               <div>
-                <span><motion.i id='toggle-icon3' onClick={hideShow3} style={{ cursor: 'pointer' }} class="fa-solid fa-plus fa-lg"
+                <span><motion.i id='toggle-icon3' onClick={hideShow3} style={{ cursor: 'pointer' }} className="fa-solid fa-plus fa-lg"
                   animate={{ rotate: isVisible3 ? 180 : 0 }}
                   transition={{ duration: 0.5 }}
                 ></motion.i></span>
@@ -452,7 +452,7 @@ const sm = useTransform(scrollYProgress, [0, 1], [0, -200]);
         </div>
 
 
-        {ActiveInterest === 'GAMING' && (
+        {/* {ActiveInterest === 'GAMING' && (
           <motion.div
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
@@ -478,9 +478,9 @@ const sm = useTransform(scrollYProgress, [0, 1], [0, -200]);
             </div>
 
           </motion.div>
-        )}
+        )} */}
 
-        {ActiveInterest === 'MUSIC' && (
+        {/* {ActiveInterest === 'MUSIC' && (
           <motion.div
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
@@ -506,9 +506,9 @@ const sm = useTransform(scrollYProgress, [0, 1], [0, -200]);
             </div>
 
           </motion.div>
-        )}
+        )} */}
 
-        {ActiveInterest === 'TENNIS' && (
+        {/* {ActiveInterest === 'TENNIS' && (
           <motion.div
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
@@ -534,7 +534,7 @@ const sm = useTransform(scrollYProgress, [0, 1], [0, -200]);
             </div>
 
           </motion.div>
-        )}
+        )} */}
 
 
 

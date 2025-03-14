@@ -1,5 +1,5 @@
-import {React , useEffect} from 'react'
-import { motion, easeIn, useScroll, useTransform } from 'framer-motion'
+import { React, useEffect } from 'react'
+import { motion } from 'framer-motion'
 import './contact.css'
 
 export const Contact = () => {
@@ -11,40 +11,40 @@ export const Contact = () => {
   const containerVariants5 = {
     hidden: {},
     visible: {
-        transition: {
-            staggerChildren: 0.1,
-        },
-    },
-};
-
-const characterVariants5 = {
-  hidden: { y: 200 },
-  visible: {
-      y: 0, transition: { duration: 0.5 }
-  },
-};
-
-const containerVariants6 = {
-  hidden: {},
-  visible: {
       transition: {
-          staggerChildren: 0.1,
+        staggerChildren: 0.1,
       },
-  },
-};
+    },
+  };
 
-const characterVariants6 = {
-hidden: { y: 200 },
-visible: {
-    y: 0, transition: { duration: 0.5 }
-},
-};
+  const characterVariants5 = {
+    hidden: { y: 200 },
+    visible: {
+      y: 0, transition: { duration: 0.5 }
+    },
+  };
+
+  const containerVariants6 = {
+    hidden: {},
+    visible: {
+      transition: {
+        staggerChildren: 0.1,
+      },
+    },
+  };
+
+  const characterVariants6 = {
+    hidden: { y: 200 },
+    visible: {
+      y: 0, transition: { duration: 0.5 }
+    },
+  };
 
   const word10 = "HELLO@RITESH".split("");
   const word11 = "PANDEY.COM".split("");
-  const word12 = "LINKEDIN" .split("")
-  const word13 = "INSTAGRAM" .split("")
-  const word14 = "GITHUB" .split("")
+  const word12 = "LINKEDIN".split("")
+  const word13 = "INSTAGRAM".split("")
+  const word14 = "GITHUB".split("")
 
   return (
     <div className='contact-page'>
@@ -53,7 +53,7 @@ visible: {
         initial={{ y: "-200%" }}
         animate={{ y: "0%" }}
         transition={{ duration: 0.5, delay: 1 }}
-        style={{color: 'white'}}
+        style={{ color: 'white' }}
       >
         <h4>Currently Web developer
           <br />

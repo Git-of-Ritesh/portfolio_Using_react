@@ -1,5 +1,5 @@
 import { React, useRef, useEffect } from 'react'
-import { animate, easeIn, motion, useScroll, useTransform } from "framer-motion"
+import { easeIn, motion, useScroll, useTransform } from "framer-motion"
 import './Home.css'
 import company from './images/company.jpg'
 import recipe from './images/recipe.jpg'

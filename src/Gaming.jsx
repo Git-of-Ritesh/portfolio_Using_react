@@ -11,7 +11,7 @@ import React from 'react'
 import { useGLTF } from '@react-three/drei'
 
 export default function Model(props) {
-  const { nodes, materials } = useGLTF('/gaming.gltf')
+  const { nodes, materials } = useGLTF('/gaming.gltf');
   return (
     <group {...props} dispose={null}>
       <group rotation={[-Math.PI / 2, -0.135, 0]}>
